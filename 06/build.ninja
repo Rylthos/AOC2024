@@ -1,0 +1,6 @@
+cflags = -Wall -g --std=c++20
+
+rule cc
+    command = clang++ $cflags -o $out $in
+
+build code: cc main.cpp
