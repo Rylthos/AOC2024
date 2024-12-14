@@ -2,3 +2,5 @@
 .direnv
 .envrc
 *.txt
+
+day14/Output/*
